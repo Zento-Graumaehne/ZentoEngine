@@ -1,4 +1,4 @@
-Z_Game_Score = 10;
+Z_Game_Score = 0;
 
 function print(x, z){
     document.getElementById(x).innerHTML = z
