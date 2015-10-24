@@ -1,0 +1,59 @@
+Z_Game_Score = 0;
+
+function print(x, z){
+    document.getElementById(x).innerHTML = z
+}
+
+function Z_Game(){
+    Z_Game_Score += 1;
+    print("game", ("Score: " + Z_Game_Score))
+    
+   
+    if(Z_Game_Score >= 1){
+    print("pseudo_button", "Just like that!")    
+    }
+    if(Z_Game_Score >= 2){
+    print("pseudo_button", "Oh, yeah!")    
+    }
+    if(Z_Game_Score >= 3){
+    print("pseudo_button", "That's the spot!")    
+    } 
+    if(Z_Game_Score >= 4){
+    print("pseudo_button", "PLEASE DON'T STOP!")    
+    } 
+    if(Z_Game_Score >= 5){
+    print("pseudo_button", "FUCK YES!")
+    } 
+    if(Z_Game_Score >= 6){
+    print("pseudo_button", "KEEP PRESSING!")    
+    } 
+    if(Z_Game_Score >= 7){
+    print("pseudo_button", "FASTER!")    
+    } 
+    if(Z_Game_Score >= 20){
+    print("pseudo_button", "FASTER!!")    
+    } 
+    if(Z_Game_Score >= 50){
+    print("pseudo_button", "ALMOST THERE!")    
+    } 
+    if(Z_Game_Score >= 150){
+    print("pseudo_button", "I'M COMING!")    
+    } 
+    if(Z_Game_Score >= 200){
+    print("pseudo_button", "CAN'T...")    
+    }
+    if(Z_Game_Score >= 225){
+    print("pseudo_button", "TAKE IT...")    
+    }
+    if(Z_Game_Score >= 250){
+    print("pseudo_button", "ANYMORE!!!")    
+    }
+    if(Z_Game_Score >= 275){
+    print("pseudo_button", "AHHHHHHHHH!!!!")    
+    }
+    if(Z_Game_Score >= 300){
+     window.alert("You've killed the blog but don't worry, it died in pleasure!");
+     window.setTimeout('window.location = "/void"',1);
+     
+    }
+}
