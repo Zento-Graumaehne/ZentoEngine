@@ -39,4 +39,3 @@ if (x <= -360){x = 0;}
 }
 
 var myVar = setInterval(rotateapprov, 10);
-</script>
