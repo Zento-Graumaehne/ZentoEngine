@@ -1,3 +1,4 @@
+/*
 function insertAfter(referenceNode, newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
@@ -7,3 +8,4 @@ var SealOfApproval = document.createElement("div");
 SealOfApproval.innerHTML = '<div style="position:fixed;bottom:10px;right:10px;"><img src="http://38.media.tumblr.com/avatar_02ac4c40f65e_96.png" style="border-radius:50px;border: 2px solid #000"></div>';
 
 insertAfter(Script_Base, SealOfApproval);
+*/
