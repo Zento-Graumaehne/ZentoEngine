@@ -2,7 +2,7 @@ function insertAfter(referenceNode, newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 var myblog = "http://zento-graumaehne.tumblr.com/"
-var myicon = "https://38.media.tumblr.com/avatar_356931754c37_128.png"
+var myicon = "https://33.media.tumblr.com/avatar_356931754c37_96.png"
 var x = 0;
 var z_box_open = 0; 
 var Script_Base = document.getElementById("Zento_Script");
