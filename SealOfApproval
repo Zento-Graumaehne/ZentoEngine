@@ -7,7 +7,7 @@ var x = 0;
 var z_box_open = 0; 
 var Script_Base = document.getElementById("Zento_Script");
 var SealOfApproval = document.createElement("div");
-SealOfApproval.innerHTML = '<div style="position:fixed;bottom:20px;right:24px;"><img src="'+myicon+'" style="border-radius:50px;border: 2px solid #000";" height="96" width="96"><img src="http://fs5.directupload.net/images/151025/tzrwb4ge.png" id="approved" style="position:fixed;right:0px;bottom:0px;height:150px;width:150px;" onclick="msg()"></div>';
+SealOfApproval.innerHTML = '<div style="position:fixed;bottom:20px;right:24px;"><img src="'+myicon+'" style="border-radius:50px;border: 2px solid #000;" height="96" width="96"><img src="http://fs5.directupload.net/images/151025/tzrwb4ge.png" id="approved" style="position:fixed;right:0px;bottom:0px;height:150px;width:150px;" onclick="msg()"></div>';
 
 insertAfter(Script_Base, SealOfApproval);
 
