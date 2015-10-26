@@ -15,7 +15,7 @@ function msg(){
 if (z_box_open == 0){ 
 
 var b = document.createElement("div");
-b.innerHTML = '<div style="position:fixed;left:50%;top:50%;border:4px solid #1caace;background-color:rgba(0,0,0, 0.60);height:80px;width:200px;padding:5px;color:#fff;text-align:center;margin-left:-100px;margin-top:-40px;" onclick="remove()">This blog is fucking awesome and you should follow it! <br><3 <a href="'+myblog+'">Zento</a></div>'
+b.innerHTML = '<div style="position:fixed;left:50%;top:50%;border:4px solid #1caace;background-color:rgba(0,0,0, 0.60);height:80px;width:200px;padding:5px;color:#fff;text-align:center;margin-left:-100px;margin-top:-40px;" onclick="remove()">This blog is fucking awesome and you should follow it! <br>♥ <a href="'+myblog+'">Zento</a></div>'
 insertAfter(Script_Base, b);
 z_box_open = 1;
 }
