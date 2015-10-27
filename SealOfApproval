@@ -29,7 +29,7 @@ function rotateapprov(){
 
 x = (x - 1);
 
-    document.getElementById("approved").style.webkitTransform = 'rotate('+x+'deg)'; 
+    document.getElementById("approved").style.WebkitTransform = 'rotate('+x+'deg)'; 
     document.getElementById("approved").style.mozTransform    = 'rotate('+x+'deg)'; 
     document.getElementById("approved").style.msTransform     = 'rotate('+x+'deg)';  
     document.getElementById("approved").style.oTransform      = 'rotate('+x+'deg)'; 
